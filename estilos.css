@@ -1,0 +1,52 @@
+* {
+     margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height:100%;
+    max-height: 100%
+}
+
+.flex-container{
+   display: flex;
+   height:100%;
+
+}
+
+.container{
+    
+   margin: auto;
+   position: relative;
+
+}
+.circulo_grande{
+    right: -700px;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 50px solid red;
+}
+.circulo_pequeño{
+    right: -48px;
+    top: 50px;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 80px solid white;
+    background: red;
+
+} 
+
+
+
+.base_logo_name{
+    content:"TARGET";
+    left:-40px ;
+  
+  left: 90px;
+  top:10px;
+  font: bold 55px helvetica;
+}
